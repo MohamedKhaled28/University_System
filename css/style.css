@@ -1,0 +1,215 @@
+body {
+	margin: 0;
+	position: relative;
+	width: auto;
+}
+body #page {
+	background: url("../images/bg-home.jpg") no-repeat scroll center top #ffffff;
+	margin: 0;
+	overflow: hidden;
+	width: auto;
+	z-index: 3;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+/*----------------------------------------header-styles---------------------------------------*/
+#header {
+	background: url(../images/bg-transparent1.png) repeat;
+	min-height: 60px;
+	width: auto;
+}
+#header div {
+	margin: 0 auto;
+	max-width: 1000px;
+	min-height: 60px;
+	padding: 0 10px;
+}
+#header div a.logo {
+	display: block;
+	float: left;
+	height: 60px;
+	margin: 0 44px 0 0;
+	width: 304px;
+}
+#header div a img {
+	display: block;
+	margin: 0;
+	width: auto;
+}
+#header div ul {
+	display: inline-block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#header div ul li {
+	float: left;
+	margin: 0;
+	width: auto;
+}
+#header div ul li a {
+	color: #ffffff;
+	display: block;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 59px;
+	margin: 0;
+	min-height: 60px;
+	padding: 0 24px;
+	text-align: center;
+	text-transform: uppercase;
+	width: auto;
+}
+#header div ul li a:hover {
+	background-color: #620031;
+	color: #ffffff;
+}
+#header div ul li.selected a {
+	background-color: #000000;
+	color: #a3a3a3;
+}
+#header div ul li.menu {
+	position: relative;
+}
+#header div ul li.menu ul {
+	display: block;
+	left: -99999px;
+	list-style: none;
+	margin: 0;
+	position: absolute;
+	top: 60px;
+	width: 142px;
+	z-index: 50;
+}
+
+
+
+
+/*----------------------------------------body-home-styles---------------------------------------*/
+#body {
+	background-color: #000000;
+	margin: 0;
+	min-height: 808px;
+	overflow: hidden;
+	width: 100%;
+}
+
+/*----------------------------------------body-styles---------------------------------------*/
+#body.about .header {
+	background: url(../images/bg-about.jpg) no-repeat center top #000000;
+	margin: 0;
+	min-height: 455px;
+	width: 100%;
+}
+#body.about .header div, #body .header div {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 80px 0 40px;
+}
+#body.about .header div h1, #body .header div h1 {
+	color: #FFFFFF;
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 36px;
+	margin: 0 auto 87px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 940px;
+}
+#body .header .contact h2 {
+	color: #A3A3A3;
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 0 auto;
+	padding: 8px 0 62px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 500px;
+}
+#body .header div form {
+	display: block;
+	margin: 0 auto;
+	width: 461px;
+}
+#body .header div form input {
+	background-color: #A3A3A3;
+	border: medium none;
+	color: #000000;
+	display: block;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	height: 43px;
+	line-height: 43px;
+	margin: 0 0 29px;
+	padding: 0 0 0 20px;
+	text-align: left;
+	text-transform: uppercase;
+	width: 441px;
+}
+
+#body .header div form input#submit {
+	background-color: #3c0f38;
+	color: #ffffff;
+	cursor: pointer;
+	display: block;
+	float: right;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	height: 31px;
+	line-height: 31px;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 120px;
+}
+#body .header div form input#radio {
+
+height:20px;
+}
+#body .header div form input#submit:hover {
+	background-color: #620031;
+}
+/*----------------------------------------footer-styles---------------------------------------*/
+#footer {
+	width: auto;
+}
+
+#footer .footnote {
+	background-color: #FFFFFF;
+	min-height: 84px;
+	overflow: hidden;
+	width: auto;
+}
+
+#footer .footnote div p {
+	color: #000000;
+	display: block;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	width: 940px;
+}
+#body select  {
+width:100px;
+height:28px;
+background-color:#999999;
+font-size:18px;
+}
+
+

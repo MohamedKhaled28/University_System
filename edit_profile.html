@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Edit Profile</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<div>
+				<a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+				<ul id="navigation">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="">....</a>
+					</li>
+					<li class="menu">
+						<a href="">...</a>
+					</li>
+					<li class="menu">
+						<a href="">...</a>
+					</li>
+					<li class="selected">
+						<a href="edit_profile.html">Edit Profile</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="body">
+			<div class="header">
+				<div class="contact">
+					<h1>Edit Profile</h1>
+					<h2>Edit your data here</h2>
+					<form action="">
+						<input type="text" name="fullname" value="Full Name" onBlur="this.value=!this.value?'Full Name':this.value;"  onClick="this.value='';">
+						<input type="text" name="email" value="Email" onBlur="this.value=!this.value?'Email':this.value;"  onClick="this.value='';">
+						<input type="text" name="level" value="Level" onBlur="this.value=!this.value?'Level':this.value;" onClick="this.value='';">
+						<input type="password" name="password" value="Password" onBlur="this.value=!this.value?'Password':this.value;" onClick="this.value='';">
+						<input type="text" name="department" value="Department" onBlur="this.value=!this.value?'Department':this.value;" onClick="this.value='';">
+						<input type="text" name="nationalid" value="National ID" onBlur="this.value=!this.value?'National ID':this.value;" onClick="this.value='';"><br>
+						<font color="#FFFFFF" size="+2">Male</font>
+						<input type="radio" name="gender" value="male" checked>
+						<font color="#FFFFFF" size="+2"> Female </font>
+                        <input type="radio" name="gender" value="female">
+						
+						<input type="submit" value="SUBMIT" id="submit">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			
+			<div class="footnote">
+				<div>
+					<p>&copy; 2023 BY NONAME TEAM | ALL RIGHTS RESERVED</p>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
